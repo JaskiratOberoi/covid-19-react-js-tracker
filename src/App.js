@@ -27,6 +27,7 @@ class App extends Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
+        <footer>Jaskirat Singh Obeori © Hansei By Design</footer>
       </div>
     );
   }

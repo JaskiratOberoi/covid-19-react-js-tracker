@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 .container {
@@ -20,6 +21,14 @@ body {
   width: 30rem;
   margin-top: 2rem;
   margin-bottom: -3rem;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  margin-top: 2rem;
+  font-size: 0.6rem;
 }
 
 @media (max-width: 700px) {
